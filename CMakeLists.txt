@@ -34,6 +34,7 @@ find_package(fmt REQUIRED)
 find_package(cxxopts CONFIG REQUIRED)
 find_package(Eigen3 CONFIG REQUIRED)
 
+add_definitions(-D_USE_MATH_DEFINES)
 include_directories(Src)
 add_subdirectory(Src)
 add_subdirectory(Examples)
