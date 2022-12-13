@@ -30,7 +30,10 @@ if(CCACHE_PROGRAM)
 endif()
 
 find_package(spdlog REQUIRED)
+find_package(fmt REQUIRED)
+find_package(cxxopts CONFIG REQUIRED)
 find_package(Eigen3 CONFIG REQUIRED)
 
+include_directories(Src)
 add_subdirectory(Src)
 add_subdirectory(Examples)

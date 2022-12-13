@@ -1,2 +1,2 @@
-add_executable(Example Example.cpp)
-target_link_libraries(Example PRIVATE Totp spdlog::spdlog)
+add_executable(TotpExample TotpExample.cpp)
+target_link_libraries(TotpExample PRIVATE Totp spdlog::spdlog fmt::fmt cxxopts::cxxopts)
