@@ -3,3 +3,4 @@ build
 Build
 .vs
 CMakeSettings.json
+out
